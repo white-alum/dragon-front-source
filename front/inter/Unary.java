@@ -1,6 +1,9 @@
 package inter;
 import lexer.*; import symbols.*;
 
+/**
+ * 单目运算符表达式
+ */
 public class Unary extends Op {
 
    public Expr expr;

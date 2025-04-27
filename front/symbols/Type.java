@@ -1,5 +1,9 @@
 package symbols;
 import lexer.*;
+
+/**
+ * 类型
+ */
 public class Type extends Word {
 
    public int width = 0;          // width is used for storage allocation
@@ -12,6 +16,11 @@ public class Type extends Word {
       Char  = new Type( "char",  Tag.BASIC, 1 ),
       Bool  = new Type( "bool",  Tag.BASIC, 1 );
 
+   /**
+    * 用于类型转换
+    * @param p
+    * @return
+    */
    public static boolean numeric(Type p) {
       if (p == Type.Char || p == Type.Int || p == Type.Float) return true;
       else return false;

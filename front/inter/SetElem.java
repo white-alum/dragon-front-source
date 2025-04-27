@@ -1,6 +1,9 @@
 package inter;
 import lexer.*; import symbols.*;
 
+/**
+ * 赋值数组元素语句。
+ */
 public class SetElem extends Stmt {
 
    public Id array; public Expr index; public Expr expr;

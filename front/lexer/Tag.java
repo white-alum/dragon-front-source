@@ -1,5 +1,8 @@
 package lexer;
 
+/**
+ * 词法单元对应的常量
+ */
 public class Tag {
 
    public final static int

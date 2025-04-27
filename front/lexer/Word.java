@@ -1,4 +1,8 @@
 package lexer;
+
+/**
+ * 用于管理保留字和标识符的类。
+ */
 public class Word extends Token {
 
    public String lexeme = "";

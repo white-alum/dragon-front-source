@@ -1,5 +1,9 @@
 package lexer;
 import java.io.*; import java.util.*; import symbols.*;
+
+/**
+ * 词法分析器
+ */
 public class Lexer {
    public static int line = 1;
    char peek = ' ';
@@ -27,6 +31,12 @@ public class Lexer {
       peek = ' ';
       return true;
    }
+
+   /**
+    * 扫描输入字符流，返回下一个Token
+    * @return
+    * @throws IOException
+    */
    public Token scan() throws IOException {
       for( ; ; readch() ) {
          if( peek == ' ' || peek == '\t' ) continue;
@@ -72,7 +82,7 @@ public class Lexer {
          w = new Word(s, Tag.ID);
          words.put(s, w);
          return w;
-      } 
+      }
       Token tok = new Token(peek); peek = ' ';
       return tok;
    }

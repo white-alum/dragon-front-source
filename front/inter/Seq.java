@@ -1,5 +1,8 @@
 package inter;
 
+/**
+ * 语句序列
+ */
 public class Seq extends Stmt {
 
    Stmt stmt1; Stmt stmt2;

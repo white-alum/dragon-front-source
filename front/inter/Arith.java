@@ -1,6 +1,9 @@
 package inter;
 import lexer.*; import symbols.*;
 
+/**
+ * 双目算数运算 如+ *
+ */
 public class Arith extends Op {
 
    public Expr expr1, expr2;
@@ -11,6 +14,10 @@ public class Arith extends Op {
       if (type == null ) error("type error");
    }
 
+   /**
+    * 把子表达式归约为地址
+    * @return
+    */
    public Expr gen() {
       return new Arith(op, expr1.reduce(), expr2.reduce());
    }

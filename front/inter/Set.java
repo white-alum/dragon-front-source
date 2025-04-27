@@ -1,6 +1,10 @@
 package inter;
 import lexer.*; import symbols.*;
 
+/**
+ * 实现赋值语句的类。
+ */
+
 public class Set extends Stmt {
 
    public Id id; public Expr expr;

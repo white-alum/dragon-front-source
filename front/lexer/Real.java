@@ -1,4 +1,8 @@
 package lexer;
+
+/**
+ * 处理浮点数
+ */
 public class Real extends Token {
 
 	public final float value;

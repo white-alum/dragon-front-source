@@ -1,6 +1,9 @@
 package inter;
 import lexer.*; import symbols.*;
 
+/**
+ * 关系运算符 <, >, <=, >=, ==, != 的类。
+ */
 public class Rel extends Logical {
 
    public Rel(Token tok, Expr x1, Expr x2) { super(tok, x1, x2); }
