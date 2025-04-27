@@ -31,8 +31,8 @@ public class Expr extends Node {
 
    /**
     * 为布尔表达式生成跳转代码
-    * @param t
-    * @param f
+    * @param t true分支跳转地址
+    * @param f false分支跳转地址
     */
    public void jumping(int t, int f) { emitjumps(toString(), t, f); }
 

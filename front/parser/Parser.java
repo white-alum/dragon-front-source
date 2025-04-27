@@ -44,24 +44,29 @@ public class Parser {
         int begin = s.newlabel();
         int after = s.newlabel();
         s.emitlabel(begin);
+        //递归遍历语法树，生成三地址码
         s.gen(begin, after);
         s.emitlabel(after);
     }
 
     /**
-     * 构建语法树
+     * 处理语法块，生成符号表并递归处理声明和语句序列。
      *
      * @return
      * @throws IOException
      */
     Stmt block() throws IOException {  // block -> { decls stmts }
-        //生成符号表
+        //匹配语法块开始符号
         match('{');
+        //生成符号表
         Env savedEnv = top;
         //存放最顶层的符号表
         top = new Env(top);
+        //将声明处理为符号表
         decls();
+        //递归处理语句序列生成语法树
         Stmt s = stmts();
+        //匹配语法块结束符号
         match('}');
         top = savedEnv;
         return s;
@@ -80,6 +85,7 @@ public class Parser {
             match(Tag.ID);
             match(';');
             Id id = new Id((Word) tok, p, used);
+            //存入符号表
             top.put(tok, id);
             used = used + p.width;
         }

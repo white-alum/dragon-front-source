@@ -2,7 +2,7 @@ package inter;
 import lexer.*;
 
 /**
- * 语法树节点
+ * 语法树节点，node节点只有两个直接子类 {@link Expr} 和 {@link Stmt}
  */
 public class Node {
 
@@ -20,11 +20,11 @@ public class Node {
     */
    static int labels = 0;
    /**
-    * 用于生成三地址码
+    * 用于生成三地址码 实现L1: 等标签号的递增
     */
    public int newlabel() { return ++labels; }
    /**
-    * 用于生成三地址码
+    * 用于生成三地址码 的L1: 等标签
     */
    public void emitlabel(int i) { System.out.print("L" + i + ":"); }
    /**
