@@ -1,0 +1,240 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="b6f9d4ce-e41e-4f6f-954c-0fa05cb7fb3e" name="Changes" comment="龙书源码">
+      <change afterPath="$PROJECT_DIR$/front/inter/package-info.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dragon-front-source.iml" beforeDir="false" afterPath="$PROJECT_DIR$/dragon-front-source.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/front/inter/Arith.java" beforeDir="false" afterPath="$PROJECT_DIR$/front/inter/Arith.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/front/inter/Expr.java" beforeDir="false" afterPath="$PROJECT_DIR$/front/inter/Expr.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/front/inter/Node.java" beforeDir="false" afterPath="$PROJECT_DIR$/front/inter/Node.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/front/inter/Op.java" beforeDir="false" afterPath="$PROJECT_DIR$/front/inter/Op.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/front/inter/Or.java" beforeDir="false" afterPath="$PROJECT_DIR$/front/inter/Or.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/front/inter/Rel.java" beforeDir="false" afterPath="$PROJECT_DIR$/front/inter/Rel.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/front/inter/Seq.java" beforeDir="false" afterPath="$PROJECT_DIR$/front/inter/Seq.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/front/inter/Set.java" beforeDir="false" afterPath="$PROJECT_DIR$/front/inter/Set.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/front/inter/SetElem.java" beforeDir="false" afterPath="$PROJECT_DIR$/front/inter/SetElem.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/front/inter/Stmt.java" beforeDir="false" afterPath="$PROJECT_DIR$/front/inter/Stmt.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/front/inter/Unary.java" beforeDir="false" afterPath="$PROJECT_DIR$/front/inter/Unary.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/front/lexer/Lexer.java" beforeDir="false" afterPath="$PROJECT_DIR$/front/lexer/Lexer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/front/lexer/Real.java" beforeDir="false" afterPath="$PROJECT_DIR$/front/lexer/Real.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/front/lexer/Tag.java" beforeDir="false" afterPath="$PROJECT_DIR$/front/lexer/Tag.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/front/lexer/Word.java" beforeDir="false" afterPath="$PROJECT_DIR$/front/lexer/Word.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/front/parser/Parser.java" beforeDir="false" afterPath="$PROJECT_DIR$/front/parser/Parser.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/front/symbols/Array.java" beforeDir="false" afterPath="$PROJECT_DIR$/front/symbols/Array.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/front/symbols/Env.java" beforeDir="false" afterPath="$PROJECT_DIR$/front/symbols/Env.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/front/symbols/Type.java" beforeDir="false" afterPath="$PROJECT_DIR$/front/symbols/Type.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/dragon-front-source/Makefile" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/dragon-front-source/README" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/dragon-front-source/inter/Access.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/dragon-front-source/inter/And.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/dragon-front-source/inter/Arith.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/dragon-front-source/inter/Break.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/dragon-front-source/inter/Constant.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/dragon-front-source/inter/Do.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/dragon-front-source/inter/Else.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/dragon-front-source/inter/Expr.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/dragon-front-source/inter/Id.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/dragon-front-source/inter/If.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/dragon-front-source/inter/Logical.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/dragon-front-source/inter/Node.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/dragon-front-source/inter/Not.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/dragon-front-source/inter/Op.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/dragon-front-source/inter/Or.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/dragon-front-source/inter/Rel.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/dragon-front-source/inter/Seq.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/dragon-front-source/inter/Set.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/dragon-front-source/inter/SetElem.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/dragon-front-source/inter/Stmt.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/dragon-front-source/inter/Temp.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/dragon-front-source/inter/Unary.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/dragon-front-source/inter/While.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/dragon-front-source/lexer/Lexer.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/dragon-front-source/lexer/Num.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/dragon-front-source/lexer/Real.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/dragon-front-source/lexer/Tag.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/dragon-front-source/lexer/Token.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/dragon-front-source/lexer/Word.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/dragon-front-source/main/Main.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/dragon-front-source/parser/Parser.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/dragon-front-source/symbols/Array.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/dragon-front-source/symbols/Env.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/dragon-front-source/symbols/Type.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/dragon-front-source/tests/block1.i" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/dragon-front-source/tests/block1.t" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/dragon-front-source/tests/expr1.i" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/dragon-front-source/tests/expr1.t" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/dragon-front-source/tests/expr2.i" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/dragon-front-source/tests/expr2.t" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/dragon-front-source/tests/expr3.i" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/dragon-front-source/tests/expr3.t" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/dragon-front-source/tests/expr4.i" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/dragon-front-source/tests/expr4.t" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/dragon-front-source/tests/identity.i" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/dragon-front-source/tests/identity.t" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/dragon-front-source/tests/identity2.i" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/dragon-front-source/tests/identity2.t" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/dragon-front-source/tests/jump1.i" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/dragon-front-source/tests/jump1.t" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/dragon-front-source/tests/jump2.i" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/dragon-front-source/tests/jump2.t" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/dragon-front-source/tests/jump3.i" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/dragon-front-source/tests/jump3.t" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/dragon-front-source/tests/prog0.i" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/dragon-front-source/tests/prog0.t" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/dragon-front-source/tests/prog1.i" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/dragon-front-source/tests/prog1.t" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/dragon-front-source/tests/prog2.i" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/dragon-front-source/tests/prog2.t" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/dragon-front-source/tests/prog3.i" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/dragon-front-source/tests/prog3.t" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/dragon-front-source/tests/prog4.i" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/dragon-front-source/tests/prog4.t" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/dragon-front-source/tmp/block1.i" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/dragon-front-source/tmp/expr1.i" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/dragon-front-source/tmp/expr2.i" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/dragon-front-source/tmp/expr3.i" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/dragon-front-source/tmp/expr4.i" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/dragon-front-source/tmp/identity.i" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/dragon-front-source/tmp/identity2.i" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/dragon-front-source/tmp/jump1.i" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/dragon-front-source/tmp/jump2.i" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/dragon-front-source/tmp/jump3.i" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/dragon-front-source/tmp/prog0.i" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/dragon-front-source/tmp/prog1.i" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/dragon-front-source/tmp/prog2.i" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/dragon-front-source/tmp/prog3.i" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/dragon-front-source/tmp/prog4.i" beforeDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="package-info" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GradleLocalSettings">
+    <option name="myGradleUserHome" value="$PROJECT_DIR$/../../../program/gradle/gradle-8.12.1/repo" />
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="customMavenHome" value="D:\program\maven" />
+        <option name="localRepository" value="D:\program\maven\rep" />
+        <option name="mavenHomeTypeForPersistence" value="CUSTOM" />
+        <option name="userSettingsFile" value="D:\program\maven\conf\settings.xml" />
+      </MavenGeneralSettings>
+    </option>
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 6
+}</component>
+  <component name="ProjectId" id="2wICx75ca6YZ2Elhk66zqEhBcNU" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Application.Main.executor": "Debug",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.git.unshallow": "true",
+    "git-widget-placeholder": "main",
+    "ignore.virus.scanning.warn.message": "true",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "D:/workspace_ct/compiler/dragon-front-source",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "project.structure.last.edited": "Project",
+    "project.structure.proportion": "0.15",
+    "project.structure.side.proportion": "0.31954023",
+    "settings.editor.selected.configurable": "reference.settingsdialog.project.gradle",
+    "vue.rearranger.settings.migration": "true"
+  }
+}]]></component>
+  <component name="RunManager">
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="main.Main" />
+      <module name="dragon-front-source" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="main.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.Main" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="bundled-jdk-9823dce3aa75-125ca727e0f0-intellij.indexing.shared.core-IU-243.24978.46" />
+        <option value="bundled-js-predefined-d6986cc7102b-76f8388c3a79-JavaScript-IU-243.24978.46" />
+      </set>
+    </attachedChunks>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="b6f9d4ce-e41e-4f6f-954c-0fa05cb7fb3e" name="Changes" comment="" />
+      <created>1745719945205</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1745719945205</updated>
+      <workItem from="1745719946915" duration="1200000" />
+      <workItem from="1745721579293" duration="14013000" />
+    </task>
+    <task id="LOCAL-00001" summary="龙书源码">
+      <option name="closed" value="true" />
+      <created>1745721536373</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1745721536373</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="龙书源码" />
+    <option name="LAST_COMMIT_MESSAGE" value="龙书源码" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/front/parser/Parser.java</url>
+          <line>82</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+</project>
